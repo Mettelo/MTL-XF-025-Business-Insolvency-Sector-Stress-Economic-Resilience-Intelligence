@@ -6,9 +6,17 @@ This is a **simulated confidential-client engagement using official public/open 
 
 ## Business problem and commission
 
-The economic-development team must decide where additional business-support intelligence is needed when insolvency counts move sharply. A spike may reflect connected companies entering a procedure rather than a broad rise in business failure. National monthly totals, event records and registered company locations also do not necessarily describe the same population or trading footprint.
+The simulated economic-development directorate runs a monthly business-resilience meeting with its intelligence and business-support teams. The meeting must decide which sectors or supported recorded-location clusters warrant a deeper enquiry before support resources are redirected.
+
+The Director of Economic Development & Business Resilience needs a defensible response when company insolvency counts rise. Headline national totals do not identify the local support question, and a cluster of recorded events may reflect one procedure, connected companies or incomplete sector/location coverage rather than widespread trading distress.
+
+Acting too quickly could divert outreach towards a misleading cluster; waiting for an unambiguous headline could leave a credible sector concern unexplored. The commission is a monthly evidence pack that distinguishes sustained procedure-level movement from record-level concentration and turns supported signals into targeted intelligence requests. It is not a predictive company failure model.
 
 > Which sectors or recorded geographic concentrations of company insolvency warrant business-support investigation, after distinguishing count growth, coverage and insolvency procedures?
+
+**Required management handover:** A monthly resilience pack containing procedure/jurisdiction trends, event coverage diagnostics, three-/six-month investigation comparisons and a sector/location enquiry register. Each case must distinguish observed count concentration from a risk-rate or trading-footprint claim.
+
+See [the management use case](BUSINESS_CONTEXT.md#practical-management-use-case) for how the review meeting uses this evidence.
 
 ## Core deliverable boundary
 

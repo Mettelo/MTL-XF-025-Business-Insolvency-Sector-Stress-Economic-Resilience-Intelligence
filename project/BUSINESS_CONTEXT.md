@@ -6,15 +6,19 @@
 
 This fictional directorate/board is an engagement scenario, not an assertion of a real client's circumstances. The source data remains official public/open data.
 
+## Business setting and immediate planning need
+
+The simulated economic-development directorate runs a monthly business-resilience meeting with its intelligence and business-support teams. The meeting must decide which sectors or supported recorded-location clusters warrant a deeper enquiry before support resources are redirected.
+
 ## Business problem
 
-The economic-development team must decide where additional business-support intelligence is needed when insolvency counts move sharply. A spike may reflect connected companies entering a procedure rather than a broad rise in business failure. National monthly totals, event records and registered company locations also do not necessarily describe the same population or trading footprint.
+The Director of Economic Development & Business Resilience needs a defensible response when company insolvency counts rise. Headline national totals do not identify the local support question, and a cluster of recorded events may reflect one procedure, connected companies or incomplete sector/location coverage rather than widespread trading distress.
+
+Acting too quickly could divert outreach towards a misleading cluster; waiting for an unambiguous headline could leave a credible sector concern unexplored. The commission is a monthly evidence pack that distinguishes sustained procedure-level movement from record-level concentration and turns supported signals into targeted intelligence requests. It is not a predictive company failure model.
 
 ## Why the current process is insufficient
 
-The current scenario relies on separately prepared reports without a common source/metric contract. The material failure to prevent is specific: Connected-company events and incomplete coding may be mistaken for broad local economic distress.
-
-This creates uncertainty over which cases need investigation and which comparisons should be rejected. No quantified loss, backlog, budget deficit or service failure is invented as a client fact.
+The economic narrative and support agenda are assembled from national charts and separate event extracts. Differences in jurisdiction, adjustment basis, dates and coding are not always visible to the meeting. The replacement must show the national context separately from observed event coverage and test whether a proposed sector/geographic case survives three- and six-month comparisons.
 
 ## Stakeholders and decisions
 
@@ -32,15 +36,15 @@ Which sectors or recorded geographic concentrations of company insolvency warran
 
 ## Practical management use case
 
-At the monthly review, the Director sees the procedure driving a count increase, checks whether the movement persists across three- and six-month windows, then reviews available sector coding. If a cluster appears linked to one corporate group or has poor geographic coverage, the team requests corroborating evidence before targeting an area-wide support response.
+The Economic Intelligence Lead opens the procedure/jurisdiction trend and explains which measure has moved. The Business Support Programme Lead then inspects supported industry or recorded-location cases, including uncoded records and any corroborated connected-company concentration. A case that disappears under a longer comparison window is treated differently from one persisting across both windows.
+
+The Director commissions a sector intelligence enquiry, requests geographic corroboration or retains the signal on a watchlist. The case specifies evidence needed from business-support teams or official denominators before recommending outreach. Recorded registered locations are not assumed to identify trading sites, and counts are not described as failure risk per business.
 
 ## Current-to-target workflow
 
-1. **Before review:** analyst registers the approved files, coverage and definitions; steward checks the cohort and unresolved exceptions.
-2. **At review:** Director of Economic Development & Business Resilience opens the overview, then inspects diagnostics and the underlying eligible population before considering a case.
-3. **Challenge:** the relevant stakeholder compares the alternative scenario and asks whether the signal survives missingness, comparability and denominator checks.
-4. **Action:** each accepted case records investigation type, responsible service role, missing evidence, next review and what finding would reverse the recommendation.
-5. **Follow-up:** the next monthly business resilience review records evidence received and the decision, without claiming the analytical signal itself caused an improvement.
+**Target management handover:** A monthly resilience pack containing procedure/jurisdiction trends, event coverage diagnostics, three-/six-month investigation comparisons and a sector/location enquiry register. Each case must distinguish observed count concentration from a risk-rate or trading-footprint claim.
+
+The meeting's decision record must contain: the selected case and reporting period; the source-backed finding; the decision to investigate, watch, clarify or close; the responsible stakeholder role; the specific additional evidence requested; and the next review point. Add the evidence that would reverse or narrow the recommendation. A watchlist or no-action conclusion is valid when supported; do not fill the shortlist simply to reach ten cases.
 
 ## Required analytical response
 
@@ -56,7 +60,9 @@ At the monthly review, the Director sees the procedure driving a count increase,
 
 ## Proposed benefit monitoring
 
-At kickoff, record a baseline review process and propose measures for: time to regenerate the agreed evidence pack; proportion of agenda recommendations with a complete evidence chain; and proportion of accepted investigations with a role owner and next review. The target for recommendation traceability and ownership is 100%; regeneration time is measured during the independent rerun, with no fabricated pre-project baseline or claimed reduction. These are proposed management measures, not achieved service benefits.
+Measure the share of proposed investigations with a jurisdiction, procedure, valid observation window, coding-coverage statement and Business Support owner; target 100%. Record which cases change under three-/six-month comparisons. Jobs saved, prevented failures and predictive warning performance are outside the evidence supplied by this commission.
+
+Record the preparation and review baseline at kickoff, then measure evidence-pack regeneration during the independent rerun. No pre-project time saving or achieved operational benefit is assumed. The eight-week engagement is assessed on the usability and traceability of the decision pack; later service outcomes require separate follow-up.
 
 ## Scope and evidence limits
 

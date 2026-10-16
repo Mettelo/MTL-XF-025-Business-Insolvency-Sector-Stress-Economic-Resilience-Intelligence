@@ -10,9 +10,15 @@
 
 > This is a **simulated confidential-client engagement using official public/open data**. Client and stakeholder role labels describe a fictional engagement; do not claim a real external Mettelo customer, employment, endorsement or privileged data access. No raw data is uploaded by this specification update.
 
+## Business setting
+
+The simulated economic-development directorate runs a monthly business-resilience meeting with its intelligence and business-support teams. The meeting must decide which sectors or supported recorded-location clusters warrant a deeper enquiry before support resources are redirected.
+
 ## Business problem
 
-The economic-development team must decide where additional business-support intelligence is needed when insolvency counts move sharply. A spike may reflect connected companies entering a procedure rather than a broad rise in business failure. National monthly totals, event records and registered company locations also do not necessarily describe the same population or trading footprint.
+The Director of Economic Development & Business Resilience needs a defensible response when company insolvency counts rise. Headline national totals do not identify the local support question, and a cluster of recorded events may reflect one procedure, connected companies or incomplete sector/location coverage rather than widespread trading distress.
+
+Acting too quickly could divert outreach towards a misleading cluster; waiting for an unambiguous headline could leave a credible sector concern unexplored. The commission is a monthly evidence pack that distinguishes sustained procedure-level movement from record-level concentration and turns supported signals into targeted intelligence requests. It is not a predictive company failure model.
 
 ## Commissioned decision
 
@@ -20,9 +26,13 @@ The economic-development team must decide where additional business-support inte
 
 ## Practical use
 
-At the monthly review, the Director sees the procedure driving a count increase, checks whether the movement persists across three- and six-month windows, then reviews available sector coding. If a cluster appears linked to one corporate group or has poor geographic coverage, the team requests corroborating evidence before targeting an area-wide support response.
+The Economic Intelligence Lead opens the procedure/jurisdiction trend and explains which measure has moved. The Business Support Programme Lead then inspects supported industry or recorded-location cases, including uncoded records and any corroborated connected-company concentration. A case that disappears under a longer comparison window is treated differently from one persisting across both windows.
 
-The full [business context](project/BUSINESS_CONTEXT.md) names operational stakeholders, decisions, risks and proposed benefit measures.
+The Director commissions a sector intelligence enquiry, requests geographic corroboration or retains the signal on a watchlist. The case specifies evidence needed from business-support teams or official denominators before recommending outreach. Recorded registered locations are not assumed to identify trading sites, and counts are not described as failure risk per business.
+
+**Management handover:** A monthly resilience pack containing procedure/jurisdiction trends, event coverage diagnostics, three-/six-month investigation comparisons and a sector/location enquiry register. Each case must distinguish observed count concentration from a risk-rate or trading-footprint claim.
+
+The full [business context](project/BUSINESS_CONTEXT.md) sets out stakeholders, decisions, evidence limits and proposed benefit measures.
 
 ## What must be delivered
 
