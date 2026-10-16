@@ -4,7 +4,7 @@
 **Client:** Confidential Economic Development & Business Resilience Directorate  
 **Accountable simulated executive:** Director of Economic Development & Business Resilience  
 **Sector:** Business Resilience / Economic Development  
-**Team:** 6–8 people · **Window:** 8 weeks  
+**Team:** 3–5 people · **Window:** 8 weeks  
 **Status:** documentation revised; file acquisition and cohort freeze pending  
 **Review cadence:** monthly business resilience review
 
