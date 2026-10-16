@@ -1,66 +1,68 @@
 # MTL-XF-025 — Project brief
 
-## Engagement
+This is a **simulated confidential-client engagement using official public/open data**. Client and stakeholder role labels describe a fictional engagement; do not claim a real external Mettelo customer, employment, endorsement or privileged data access. No raw data is uploaded by this specification update.
 
-This is a **simulated confidential-client engagement** using official public/open data. The client label is fictional and intentionally anonymous. Do not imply a real external Mettelo customer, employment by that client, privileged access or confidential source data. Public source statistics remain public; the engagement framing does not make them confidential.
+**Client:** Confidential Economic Development & Business Resilience Directorate. **Decision owner:** Director of Economic Development & Business Resilience. **Team:** 6–8. **Duration:** 8 weeks. **Review:** monthly business resilience review.
 
-**Simulated sponsor:** Confidential Economic Development & Business Resilience Directorate. **Duration:** 8 weeks. **Team:** 6–8 members. **Track:** Cross-Functional. **Sector:** Business Resilience / Economic Development.
+## Business problem and commission
 
-## Commission
+The economic-development team must decide where additional business-support intelligence is needed when insolvency counts move sharply. A spike may reflect connected companies entering a procedure rather than a broad rise in business failure. National monthly totals, event records and registered company locations also do not necessarily describe the same population or trading footprint.
 
-Which sectors or recorded geographic concentrations of company insolvency warrant business-support investigation, after distinguishing count growth, coverage and insolvency procedures?
+> Which sectors or recorded geographic concentrations of company insolvency warrant business-support investigation, after distinguishing count growth, coverage and insolvency procedures?
 
-**Business Insolvency, Sector Stress & Economic Resilience Intelligence.** An economic-development team needs earlier warning of where business distress is rising by insolvency type, sector and geography so business-support resources can be investigated before pressure becomes more severe.
+## Core deliverable boundary
 
-## Outcomes and boundaries
+June 2026 long-run CSV plus the agreed England/Wales/Scotland record ZIP and long-run metadata. Establish actual record-level dates, fields and event keys before sector/geographic analysis. National history and observed event history remain separate; all records with missing industry/geography stay visible in coverage diagnostics.
 
-- Produce procedure/jurisdiction trends separating seasonal adjustment bases and registration dates.
-- Analyse industry and geography only where the record-level fields support them; quantify unmatched and uncoded records.
-- Shortlist up to ten sector/geographic investigation cases with three-/six-month sensitivity and explicit denominator gaps.
+**Optional / out of core:** Risk per active business, trading-site exposure, predictive early warning and causal support effectiveness require additional denominators/evaluation. If the ZIP lacks a required breakdown, use a registered official industry table for sector analysis; do not infer it from company names.
 
-Deliver evidence for a management investigation decision, with an auditable shortlist of up to ten cases and at least two alternative prioritisation scenarios. Do not manufacture a full shortlist where the data supports fewer cases. Findings may conclude that evidence is insufficient.
+File availability does not prove dimensional support. Before analytical build, the team completes the source→field→metric→deliverable matrix in [data guidance](../data/README.md). Missing mandatory support blocks the gate and requires an approved official replacement or scope decision.
 
-**Data boundary:** Freeze the June 2026 long-run CSV and England/Wales/Scotland record-level ZIP. National trends use the long-run history from 2000 to the actual frozen endpoint. Record-level sector/geography analysis uses only the coverage and fields documented inside that ZIP; do not assume the entire long-run history is represented.
+## Analytical model
 
-**Model boundary:** National fact: month × jurisdiction × procedure × adjustment basis. Record fact: published insolvency event/record × event date × jurisdiction × available company/sector/geography fields. A company identifier need not uniquely identify an insolvency event.
+National fact: month × jurisdiction × procedure × adjustment basis. Record fact: published insolvency event/record × event date × jurisdiction × available company/sector/geography fields. A company identifier need not uniquely identify an insolvency event.
 
-**Out of scope:** real operational deployment, confidential case-level data, guaranteed savings/outcome improvements, paid-source dependencies and automatic allocation of services or funding. Optional modelling or enriched sources must not delay or replace the core D1–D12 pack.
+The source contract above controls where a general grain description is conditional. Do not create dimensions absent from the approved input.
 
-## Users and acceptance owners
+## Objectives
 
-- Simulated sponsor/review panel: approves commissioned question, changes and final investigation recommendation.
-- Domain service/planning user: checks whether diagnostic evidence supports the proposed review action.
-- Data steward: verifies source/version, licence, definitions, quality and retention evidence.
-- BI user: tests overview, drill-down, filters and limitations.
-- Independent reviewer: verifies calculations, rerun and requirement-to-test traceability.
+1. Every trend identifies jurisdiction, procedure, date basis and seasonal-adjustment status.
+2. Every sector/geographic finding reports uncoded/unmapped counts and the actual event-history window.
+3. Every early-warning suggestion is labelled unvalidated unless a separate time-based backtest and denominator support it.
 
-These are simulated stakeholder roles, not claims of access to a real organisation.
+## Business questions
 
-## Work allocation
+1. Which insolvency procedures drive recent changes within each jurisdiction?
+2. Which sectors concentrate observed records, where industry coding exists?
+3. Are recorded geographic concentrations robust to missing or ambiguous addresses?
+4. Do recent trends persist under three- versus six-month smoothing?
+5. What business-population denominator and support-service evidence are needed before an early-warning claim?
 
-| Accountable role | Project responsibility and evidence |
+## Cross-functional delivery model
+
+| Delivery role | Required project contribution |
 | --- | --- |
-| Business Analyst / Delivery Lead | Own the commissioned decision for Confidential Economic Development & Business Resilience Directorate; record at least eight prioritised requirements, each linked to a deliverable and test; maintain weekly scope and decision logs. |
-| Data Governance Analyst | Register every 025 input and critical field; approve the frozen cohort, licence evidence, glossary and 100% headline-KPI lineage before analysis. |
-| Data Engineer | Implement the stated 025 analytical grain, ingestion and exclusions; deliver a clean rerun with row-count/checksum evidence and no unexplained key duplicates. |
-| BI Developer | Build executive, diagnostic and quality views for the commissioned decision; reconcile at least five 025 dashboard measures and test every visible filter. |
+| Business Analyst / Delivery Lead | Map the monthly business resilience review, document eight prioritised user requirements and maintain requirement→deliverable→test links; Director of Economic Development & Business Resilience owns business approval. |
+| Data Governance Analyst | Own the MTL-XF-025 source/metadata register, cohort decision, licence evidence and 100% headline-measure lineage; resolve the specific risk: Connected-company events and incomplete coding may be mistaken for broad local economic distress. |
+| Data Engineer | Implement the declared facts, keys, hierarchy and join controls; account for every source row and deliver a second-member reproducible run at the chosen MTL-XF-025 scope. |
+| BI Developer | Implement the monthly business resilience review overview, diagnostic and quality pages; reconcile five measures and ensure cohort/extension warnings survive filters and export. |
 | Economic & Business Resilience Analyst | Own procedure/jurisdiction comparability and explain five reconciled monthly measures. |
 | Industry & Geographic Data Steward | Document industry mapping, event keys and the percentage of uncoded/unmapped records. |
 | Model & Decision Assurance Analyst | Review smoothing sensitivity and any optional backtest; block unsupported predictive-risk claims. |
 
-At kickoff, replace role ownership with named team members and record review partners in `CONTRIBUTIONS.md`. Multiple roles per member are permitted, but critical calculations need a reviewer distinct from their author.
+Assign named team members and review partners at kickoff; roles may be combined, but a distinct member must review critical calculations and perform the final clean rerun. The executive and operational stakeholder roles are specified in [business context](BUSINESS_CONTEXT.md).
 
-## Working stages
+## Required investigation approach
 
-1. Week 1: agree at least eight requirements and define expected decisions.
-2. Week 2: inspect actual file schemas, establish available coverage and approve cohort freeze.
-3. Week 3: implement and reconcile analytical facts, keys and exclusions.
-4. Week 4: approve the 8-measure KPI catalogue and denominator rules.
-5. Week 5: complete five supported findings and domain comparisons.
-6. Week 6: compare two decision scenarios, produce the investigation shortlist and BI draft.
-7. Week 7: execute ten or more assurance/UAT scenarios, including project-specific edge cases.
-8. Week 8: independent rerun, executive briefing, presentation and final handover.
+Within each comparable jurisdiction/procedure, compare three-month and six-month count signals. For coded sectors, show event concentration with uncoded records as a separate group. Geographic candidates require documented mapping coverage; below 90% mapping coverage, label the geography result exploratory and place it in an evidence-review queue. The 90% gate is a project design choice, not an official threshold.
 
-## Sign-off
+## Milestones and acceptance
 
-Follow [D1–D12](DELIVERABLES.md) and [AC1–AC12](ACCEPTANCE_CRITERIA.md). Approve only with reproducible evidence, no unresolved critical/high defects and transparent conditional-data limitations. A change in source availability must be logged; do not silently substitute a newer release.
+| Gate | Reviewers | Evidence / decision |
+| --- | --- | --- |
+| G1 — scope/source, end Week 2 | Business Analyst + Data Governance Analyst + domain specialist | Approve actual period, geography, grain, required input and field support in a source-to-deliverable matrix. Release resources and metadata link verified; ZIP members, event coverage, sector/location schema and frozen checksums pending. Unsupported mandatory outputs remain blocked, not quietly reclassified as completed. |
+| G2 — model/metrics, end Week 4 | Data Engineer + domain specialist + independent reviewer | Approve row accounting, keys, hierarchy, join cardinality, five source reconciliations and all core metric definitions. |
+| G3 — analytical decision review, end Week 6 | Director of Economic Development & Business Resilience + operational stakeholders | Within each comparable jurisdiction/procedure, compare three-month and six-month count signals. For coded sectors, show event concentration with uncoded records as a separate group. Geographic candidates require documented mapping coverage; below 90% mapping coverage, label the geography result exploratory and place it in an evidence-review queue. The 90% gate is a project design choice, not an official threshold. Retain an evidence-insufficient case and a manual review route. |
+| G4 — release, end Week 8 | Simulated Mettelo panel + independent reviewer | Accept D1–D12 only after ten executed domain tests, five BI reconciliations, clean rerun evidence and resolution of all critical/high defects. |
+
+D1–D12 are defined in [deliverables](DELIVERABLES.md). AC1–AC12 and DT1–DT10 are defined in [acceptance criteria](ACCEPTANCE_CRITERIA.md). No real production deployment, automatic funding/service allocation, private-client data or paid-source dependency is required.

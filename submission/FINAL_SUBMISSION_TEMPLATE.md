@@ -1,121 +1,95 @@
 # MTL-XF-025 — Final submission: Business Insolvency, Sector Stress & Economic Resilience Intelligence
 
-Complete this template in your team repository as `submission/FINAL_SUBMISSION.md`. Replace prompts with evidence; leave unavailable items explicitly unavailable with reasons. This template itself is not completed delivery evidence.
+Complete in the team repository as `submission/FINAL_SUBMISSION.md`. This is a template, not delivery evidence. Replace prompts with actual links/results; never invent approvals, hashes or test outcomes.
 
 ## Team and version
 
-- Team repository URL:
-- Team name and individual GitHub accounts:
+- Team repository, name and member GitHub accounts:
+- Named delivery owners and independent reviewers:
+- Reviewed master specification URL/commit:
 - Final commit/tag and submission date:
-- Master specification URL and reviewed commit:
-- Delivery dates:
-- Named role owners and independent reviewers:
-- Engagement declaration: simulated confidential-client engagement using official public/open data; no real-client employment, endorsement or privileged access claimed.
+- Delivery start/end dates:
+- Declaration: simulated confidential-client engagement using official public/open data; no real-client employment, endorsement or privileged access claimed.
 
-## Commissioned decision
+## Business answer
 
-Which sectors or recorded geographic concentrations of company insolvency warrant business-support investigation, after distinguishing count growth, coverage and insolvency procedures?
+**Decision owner:** Director of Economic Development & Business Resilience  
+**Decision:** Which sectors or recorded geographic concentrations of company insolvency warrant business-support investigation, after distinguishing count growth, coverage and insolvency procedures?
 
-State the answer, confidence, principal limitation and proposed investigation action.
+State the answer, confidence, principal limitation, proposed investigation and responsible stakeholder role. Explain how it fits the monthly business resilience review.
 
-## Actual cohort and provenance
+## Scope and data support
 
-Agreed boundary: Freeze the June 2026 long-run CSV and England/Wales/Scotland record-level ZIP. National trends use the long-run history from 2000 to the actual frozen endpoint. Record-level sector/geography analysis uses only the coverage and fields documented inside that ZIP; do not assume the entire long-run history is represented.
+Link approved core/extension contract and source-to-deliverable matrix. Record actual source versions, retrieval UTC, licences, checksums, schema/grain, periods, exclusions and freeze sign-off. Document any required supplement/fallback, why activated, what it replaces and how overlap is handled. Explicitly list unsupported mandatory requirements as blockers and optional items as unavailable with reasons.
 
-Record actual frozen files/versions, manifest/checksums, source-register link, licence evidence, retrieval timestamp, schema/coverage validation, inclusions/exclusions and approved deviations. Do not mark acquisition complete without evidence.
+## Delivery evidence
 
-## Evidence index
+| Deliverable | Artefact / owner / reviewer / status |
+| --- | --- |
+| D1 — Discovery & requirements | To complete |
+| D2 — Sources, governance & cohort contract | To complete |
+| D3 — Reproducible model & ingestion | To complete |
+| D4 — Quality, source reconciliation & exceptions | To complete |
+| D5 — Governed metric catalogue | To complete |
+| D6 — Domain assessment | To complete |
+| D7 — Investigation framework & scenarios | To complete |
+| D8 — Decision-support BI | To complete |
+| D9 — Assurance & simulated UAT | To complete |
+| D10 — Technical & operational handover | To complete |
+| D11 — Executive briefing & presentation | To complete |
+| D12 — Contribution & delivery record | To complete |
 
-| Deliverable | Artefact link | Owner / reviewer | Status / limitation |
-| --- | --- | --- | --- |
-| D1 — Discovery & decision requirements | To complete | To complete | To complete |
-| D2 — Governed sources & cohort | To complete | To complete | To complete |
-| D3 — Reproducible analytical model | To complete | To complete | To complete |
-| D4 — Quality & reconciliation | To complete | To complete | To complete |
-| D5 — KPI catalogue | To complete | To complete | To complete |
-| D6 — Domain analytical assessment | To complete | To complete | To complete |
-| D7 — Investigation decision framework | To complete | To complete | To complete |
-| D8 — BI decision-support product | To complete | To complete | To complete |
-| D9 — Independent assurance & UAT | To complete | To complete | To complete |
-| D10 — Technical & operational handover | To complete | To complete | To complete |
-| D11 — Executive recommendation | To complete | To complete | To complete |
-| D12 — Contribution & delivery record | To complete | To complete | To complete |
+## Project-specific success
 
-## Governed measures
+1. Every trend identifies jurisdiction, procedure, date basis and seasonal-adjustment status. — evidence/status: To complete.
+2. Every sector/geographic finding reports uncoded/unmapped counts and the actual event-history window. — evidence/status: To complete.
+3. Every early-warning suggestion is labelled unvalidated unless a separate time-based backtest and denominator support it. — evidence/status: To complete.
 
-| Required measure | Definition/source/test link | Result / unavailable reason |
-| --- | --- | --- |
-| Monthly insolvency events | To complete | To complete |
-| Year-on-year change | To complete | To complete |
-| Three-month moving count | To complete | To complete |
-| Procedure share | To complete | To complete |
-| Observed sector share | To complete | To complete |
-| Geographic coding coverage | To complete | To complete |
-| Record-to-series reconciliation gap | To complete | To complete |
-| Concentration | To complete | To complete |
+## Five findings and investigation recommendation
 
-## Business questions and five findings
+For each business question link quantitative evidence, scope, comparison, magnitude, uncertainty and limitation. Include up to ten supported cases with reason codes, baseline/alternative position, missing evidence, operational owner and next review. Explain how scenario changes affect the recommendation and include an evidence-insufficient case.
 
-1. Which insolvency procedures drive recent changes within each jurisdiction?
-2. Which sectors concentrate observed records, where industry coding exists?
-3. Are recorded geographic concentrations robust to missing or ambiguous addresses?
-4. Do recent trends persist under three- versus six-month smoothing?
-5. What business-population denominator and support-service evidence are needed before an early-warning claim?
-
-For each question record the finding, quantitative evidence, period/grain, comparison, uncertainty, limitation and artefact link. Record an evidenced gap where the data cannot answer it.
-
-## Investigation shortlist and sensitivity
-
-Provide up to ten supported cases. For each: entity/segment, signal and magnitude, eligibility, reason code, scenario membership, proposed investigation, responsible role, missing evidence and review trigger. Compare at least two scenarios and explain membership/rank changes. Include a case where evidence is insufficient for action.
-
-## Acceptance and assurance
+## Acceptance and testing
 
 | Criterion | Pass/fail / evidence / reviewer |
 | --- | --- |
-| AC1 (D1) | To complete |
-| AC2 (D2) | To complete |
-| AC3 (D3) | To complete |
-| AC4 (D4) | To complete |
-| AC5 (D4–D5) | To complete |
-| AC6 (D5) | To complete |
-| AC7 (D6) | To complete |
-| AC8 (D7) | To complete |
-| AC9 (D8) | To complete |
-| AC10 (D9) | To complete |
-| AC11 (D10–D11) | To complete |
-| AC12 (D12) | To complete |
+| AC1 | To complete |
+| AC2 | To complete |
+| AC3 | To complete |
+| AC4 | To complete |
+| AC5 | To complete |
+| AC6 | To complete |
+| AC7 | To complete |
+| AC8 | To complete |
+| AC9 | To complete |
+| AC10 | To complete |
+| AC11 | To complete |
+| AC12 | To complete |
 
-Record at least ten executed UAT scenarios, expected/actual results, defect severity/disposition and five reconciled BI measures. Mandatory cases:
+| Domain test | Actual result / evidence / tester / reviewer |
+| --- | --- |
+| DT1 — Reconcile five monthly/procedure measures without combining seasonally adjusted and unadjusted values. | To complete |
+| DT2 — Show a repeated company ID with different valid events is not blindly deduplicated. | To complete |
+| DT3 — Quantify missing industry/geography records before any concentration calculation. | To complete |
+| DT4 — Test that a missing month invalidates a three-month moving window rather than becoming zero. | To complete |
+| DT5 — Procedure counts 10, 20 and 30 over three valid months | To complete |
+| DT6 — A concentrated spike includes connected-company events | To complete |
+| DT7 — 20 of 100 records have no industry code | To complete |
+| DT8 — 85 of 100 eligible events are mapped to geography | To complete |
+| DT9 — Monthly series and record subset use different date coverage | To complete |
+| DT10 — No compatible active-business population is registered | To complete |
 
-1. Reconcile five monthly/procedure measures without combining seasonally adjusted and unadjusted values.
-2. Show a repeated company ID with different valid events is not blindly deduplicated.
-3. Quantify missing industry/geography records before any concentration calculation.
-4. Test that a missing month invalidates a three-month moving window rather than becoming zero.
+Link expected outcomes in [the master acceptance criteria](https://github.com/Mettelo/MTL-XF-025-Business-Insolvency-Sector-Stress-Economic-Resilience-Intelligence/blob/main/project/ACCEPTANCE_CRITERIA.md) or a retained copy tied to the reviewed specification commit. Record all additional BI/filter tests, five source checks, five BI reconciliations, defect severity/disposition and accepted limitations. Synthetic test values must be labelled synthetic.
 
-## Reproducible handover
+## Reproducibility and executive delivery
 
-- Environment/tool versions and dependencies:
-- Input snapshot location and checksum verification:
-- Clean run instructions and output locations:
-- Independent rerun reviewer/date/duration/results:
-- Reconciliation evidence and permitted rounding:
-- Refresh/change process and known failure modes:
+- Environment/dependencies, input manifest and clean run steps:
+- Independent reviewer/date/duration/output-equivalence evidence:
+- Refresh/fallback/change procedure and known failure modes:
+- Dashboard/free review instructions and static export:
+- Maximum two-page briefing and 15–20 minute presentation:
+- Proposed benefit measures and actual measured rerun time; no invented before/after savings:
 
-## Executive delivery
+## Contributions and review
 
-- Two-page briefing link:
-- Presentation link and 15–20 minute duration:
-- Dashboard/free access instructions and static export:
-- Recommendations, missing evidence, responsible roles and next review:
-
-## Contributions
-
-For every member link authored artefacts, review work, issues/PRs/commits and presentation/handover contribution. Link `CONTRIBUTIONS.md`; commit count alone is insufficient.
-
-## Limitations and review decision
-
-- Counts do not measure insolvency risk per business without a compatible business-population denominator.
-- Public company records must not become personal profiles; omit unnecessary names and addresses from outputs.
-- Retrospective insolvency indicators are not validated predictive early warnings; forecasting is optional and requires time-based evaluation.
-
-Add actual limitations, optional extensions, unresolved accepted issues and their impacts. Record simulated panel review date, reviewers and decision only after review occurs. Do not claim real operational savings or outcome improvements.
+Link `CONTRIBUTIONS.md` and every member's authored artefacts, reviews, issues/PRs/commits and presentation/handover work. Record simulated panel reviewers/date/decision only after the review occurs. Include unresolved limitations and approved scope changes; do not claim real operational outcomes.
