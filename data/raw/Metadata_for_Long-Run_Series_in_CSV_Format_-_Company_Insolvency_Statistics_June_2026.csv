@@ -1,0 +1,63 @@
+Dataset,Company Insolvency Statistics: June 2026,,,,
+Release date,17/07/2026,,,,
+Expiry date,18/08/2026,,,,
+Licence,Open Government Licence 3.0,,,,
+URL,https://assets.publishing.service.gov.uk/media/6a57978e31fb6daf3141374b/Long-Run_Series_in_CSV_Format_-_Company_Insolvency_Statistics_June_2026.csv,,,,
+Not applicable,[z],,,,
+Not available,[x],,,,
+More information,https://www.gov.uk/government/statistics/company-insolvencies-june-2026,,,,
+,,,,,
+Variable,Description,Geography,Is_Seasonally_Adjusted,Publication_Table,Source
+period,Concatenated calendar year and month,All,All,All,All
+year,Calendar year,All,All,All,All
+month,Month,All,All,All,All
+total_ew_sa,Total company insolvencies,England and Wales,Y,1a,Insolvency Service and Companies House
+compliq_ew_sa,Compulsory liquidations,England and Wales,Y,1a,Insolvency Service
+cvl_ew_sa,Creditors voluntary liquidations,England and Wales,Y,1a,Companies House
+admin_ew_sa,Administrations,England and Wales,Y,1a,Companies House
+total_ew_nsa,Total company insolvencies,England and Wales,N,1b,Insolvency Service and Companies House
+compliq_ew_nsa,Compulsory liquidations,England and Wales,N,1b,Insolvency Service
+cvl_ew_nsa,Creditors voluntary liquidations,England and Wales,N,1b,Companies House
+admin_ew_nsa,Administrations,England and Wales,N,1b,Companies House
+cva_ew_nsa,Company voluntary arrangements,England and Wales,N,1b,Companies House
+rec_ew_nsa,Administrative receiverships,England and Wales,N,1b,Companies House
+mor_ew_nsa,Moratoriums,England and Wales,N,1e,Companies House
+restplan_ew_nsa,Restructuring plans,England and Wales,N,1e,Companies House
+tot_rate_ew,Total 12-month rolling insolvency rate per 10000 companies,England and Wales,N,3,Insolvency Service and Companies House
+compliq_rate_ew,12-month rolling compulsory liquidation rate per 10000 companies,England and Wales,N,3,Insolvency Service
+cvl_rate_ew,12-month rolling creditors voluntary liquidation rate per 10000 companies,England and Wales,N,3,Companies House
+admin_rate_ew,12-month rolling administration rate per 10000 companies,England and Wales,N,3,Companies House
+cva_rate_ew,12-month rolling company voluntary arrangement rate per 10000 companies,England and Wales,N,3,Companies House
+rec_rate_ew,12-month rolling administrative receivership rate per 10000 companies,England and Wales,N,3,Companies House
+adcvl_ew_nsa,Administration to CVLs,England and Wales,N,2,Companies House
+adcvl_rate_ew,12-month rolling administration to CVL rate,England and Wales,N,2,Companies House
+cvl_with_bulk_ew,Creditors voluntary liquidations including bulk insolvencies,England and Wales,N,1d,Companies House
+cvl_with_bulk_rate_ew,12-month rolling creditors voluntary liquidation rate per 10000 companies including bulk insolvencies,England and Wales,N,1d,Companies House
+total_sc_nsa,Total company insolvencies,Scotland,N,4,Companies House
+compliq_sc_nsa,Compulsory liquidations,Scotland,N,4,Companies House
+cvl_sc_nsa,Creditors voluntary liquidations,Scotland,N,4,Companies House
+admin_sc_nsa,Administrations,Scotland,N,4,Companies House
+cva_sc_nsa,Company voluntary arrangements,Scotland,N,4,Companies House
+rec_sc_nsa,Administrative receiverships,Scotland,N,4,Companies House
+tot_rate_sc,Total 12-month rolling insolvency rate per 10000 companies,Scotland,N,5,Companies House
+compliq_rate_sc,12-month rolling compulsory liquidation rate per 10000 companies,Scotland,N,5,Companies House
+cvl_rate_sc,12-month rolling creditors voluntary liquidation rate per 10000 companies,Scotland,N,5,Companies House
+admin_rate_sc,12-month rolling administration rate per 10000 companies,Scotland,N,5,Companies House
+cva_rate_sc,12-month rolling company voluntary arrangement rate per 10000 companies,Scotland,N,5,Companies House
+rec_rate_sc,12-month rolling administrative receivership rate per 10000 companies,Scotland,N,5,Companies House
+adcvl_sc_nsa,Administration to CVLs,Scotland,N,-,Companies House
+adcvl_rate_sc,12-month rolling administration to CVL rate,Scotland,N,-,Companies House
+total_ni_nsa,Total company insolvencies,Northern Ireland,N,6,Companies House and Department for the Economy NI
+compliq_ni_nsa,Compulsory liquidations,Northern Ireland,N,6,Department for the Economy NI
+cvl_ni_nsa,Creditors voluntary liquidations,Northern Ireland,N,6,Companies House
+admin_ni_nsa,Administrations,Northern Ireland,N,6,Companies House
+cva_ni_nsa,Company voluntary arrangements,Northern Ireland,N,6,Companies House
+rec_ni_nsa,Administrative receiverships,Northern Ireland,N,6,Companies House
+tot_rate_ni,Total 12-month rolling insolvency rate per 10000 companies,Northern Ireland,N,7,Companies House and Department for the Economy NI
+compliq_rate_ni,12-month rolling compulsory liquidation rate per 10000 companies,Northern Ireland,N,7,Department for the Economy NI
+cvl_rate_ni,12-month rolling creditors voluntary liquidation rate per 10000 companies,Northern Ireland,N,7,Companies House
+admin_rate_ni,12-month rolling administration rate per 10000 companies,Northern Ireland,N,7,Companies House
+cva_rate_ni,12-month rolling company voluntary arrangement rate per 10000 companies,Northern Ireland,N,7,Companies House
+rec_rate_esc,12-month rolling administrative receivership rate per 10000 companies,Northern Ireland,N,7,Companies House
+adcvl_ni_nsa,Administration to CVLs,Northern Ireland,N,-,Companies House
+adcvl_rate_ni,12-month rolling administration to CVL rate,Northern Ireland,N,-,Companies House
